@@ -53,7 +53,7 @@ extension UIViewController {
     
     func showDefaultAlert(Message: String) {
         
-        let alert = UIAlertController(title: "SHA", message: Message, preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "", message: Message, preferredStyle: UIAlertController.Style.alert)
         alert.view.tintColor = UIColor.black
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         
